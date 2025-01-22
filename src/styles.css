@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mat-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mat-toolbar {
+    font-size: 1.2rem;
+  }
+  
+  button.mat-button {
+    font-size: 1rem;
+  }
+  
+  /* Centering content */
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .max-w-lg {
+    max-width: 32rem;
+  }
+  
+  .space-y-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shadow-2xl {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
